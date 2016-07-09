@@ -1,0 +1,13 @@
+{
+    "name": "shmurakami/behat",
+    "authors": [
+        {
+            "name": "shmurakami",
+            "email": "shmurakami1104@gmail.com"
+        }
+    ],
+    "require": {
+        "behat/behat": "^3.1",
+        "behat/mink": "^1.7"
+    }
+}
