@@ -1,0 +1,7 @@
+# behat.yml
+
+default:
+  suites:
+    default:
+      path: %paths.base%/src/tests/behaviors/features
+
