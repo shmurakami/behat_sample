@@ -4,4 +4,10 @@ default:
   suites:
     default:
       path: %paths.base%/src/tests/behaviors/features
-
+      contexts:
+        - FeatureContext
+        - FeatureWithMinkContext
+  extensions:
+    Behat\MinkExtension:
+      base_url: http://local.work/behat
+      selenium2: ~

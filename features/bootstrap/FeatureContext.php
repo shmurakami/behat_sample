@@ -1,5 +1,4 @@
 <?php
-namespace BTest\tests\behaviors\features\bootstrap;
 
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;
