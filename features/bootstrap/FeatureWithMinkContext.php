@@ -24,12 +24,21 @@ class FeatureWithMinkContext extends MinkContext
     }
 
     /**
+     * @Given /^wait (\d+)$/
+     */
+    public function wait($second)
+    {
+//        sleep($second);
+    }
+
+    /**
      * @Then header text is correct
      */
     public function headerIsShown()
     {
         $this->assertPageNotMatchesText('/foo = bar/');
         $this->assertPageMatchesText("/Behat Test/");
+        $this->assertPageMatchesText("/sample/");
     }
 
     /**

@@ -8,6 +8,7 @@ Feature: Test of MinkExtension
 
   Scenario: index.php
     Given index is shown
+    Given wait 2
     Then header text is correct
 
   Scenario: index.php?foo=bar
